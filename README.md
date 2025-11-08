@@ -44,13 +44,14 @@ Both models are lightweight, cross-platform, and can be integrated into a mobile
 ```bash
 git clone https://github.com/<yourusername>/<repo-name>.git
 cd <repo-name>
-
+```
 ### 2️ Create a virtual environment (optional but recommended)
 ```bash
 python -m venv venv
 venv\Scripts\activate     # On Windows
 # or
 source venv/bin/activate  # On macOS/Linux
+```
 ### 3️ Install dependencies
 ```
 pip install mediapipe opencv-python numpy matplotlib pandas
